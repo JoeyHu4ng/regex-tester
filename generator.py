@@ -1,4 +1,6 @@
-LEN = 8
+import sys
+
+LEN = int(sys.argv[1])
 
 def c121(s):
     return '121' in s
@@ -6,6 +8,7 @@ def c121(s):
 def nc212(s):
     return '212' not in s
 
+print("Start generating ...")
 f = open('test-suite', 'w+')
 
 cases = ['']
@@ -18,3 +21,4 @@ for i in range(LEN):
             f.write('{0} {1}\n'.format(new_case, status))
             new_cases.append(new_case)
     cases = new_cases
+print("Done!")
