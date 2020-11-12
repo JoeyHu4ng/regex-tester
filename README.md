@@ -31,3 +31,5 @@ $ python3 tester.py
 `
 $ python3 tester-gui.py
 `
+
+![demo](https://github.com/JoeyHu4ng/regex-tester/blob/main/demo/demo.png)
