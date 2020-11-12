@@ -26,7 +26,7 @@ where LEN is the maximum length for the test string
 $ python3 tester.py
 `
 
-### Running with simple GUI
+#### Running with simple GUI
 
 `
 $ python3 tester-gui.py
